@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica";
+  font-size: 22px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+/* Container */
+
+main {
+  margin: 0 30px;
+}
+
+/* Header styles */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  position: sticky;
+  width: 100%;
+  z-index: 10;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+ul li {
+  text-decoration: underline;
+}
+
+/* Hero styles */
+
+.hero {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hero-text p {
+  margin-top: 15px;
+}
+
+hr {
+  background-color: seashell;
+}
+
+/* Middle section - tea of the month*/
+
+.month {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.month p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 80px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.card img {
+  display: block;
+  width: 300px;
+  flex: 1 1 basis;
+}
+
+/* Location styles */
+
+.locations {
+  background-image: url("/resources/images/img-locations-background.jpg");
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.location-card {
+  background-color: black;
+  flex-basis: 300px;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 275px;
+}
+
+/* Contact styles */
+
+.contact {
+  text-align: center;
+  line-height: 3;
+}
